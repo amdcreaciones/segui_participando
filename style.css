@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: 'bebasregular';
+  src: url('bebasregular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'helvetica';
+  src: url('helvetica.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+	margin: 0;
+	display: flex;
+	background-color: #d0cac5;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	overflow-x: hidden;	
+}
+
+
+div {
+	display:block;
+	justify-content: center;
+}
+
+/* card */
+
+.ct-card {
+	height: 70%;
+	background-image: url(img/GUADA_perdiste.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 348px;
+	margin: auto;
+	/*-webkit-box-shadow: 0px 0px 7px 1px #737373;*/
+}	
+
+@media screen and (max-width: 500px) {
+
+	.ct-card {
+		height: 90%;
+		margin-top: auto;
+		background-image: url(img/GUADA_perdiste.png);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		min-width: 348px;
+		/*-webkit-box-shadow: 0px 0px 7px 1px #737373;*/
+		display:table
+	}
+
+	
+}
