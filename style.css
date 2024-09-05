@@ -27,7 +27,7 @@ body {
 
 
 div {
-	display:block;
+	display: flex;
 	justify-content: center;
 }
 
@@ -35,13 +35,14 @@ div {
 
 .ct-card {
 	height: 70%;
-	background-image: url(img/GUADA_perdiste.png);
+	background-image: url(img/ganaste.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-width: 348px;
 	margin: auto;
 	/*-webkit-box-shadow: 0px 0px 7px 1px #737373;*/
+	transition: 1s linear;
 }	
 
 @media screen and (max-width: 500px) {
@@ -49,7 +50,7 @@ div {
 	.ct-card {
 		height: 90%;
 		margin-top: auto;
-		background-image: url(img/GUADA_perdiste.png);
+		background-image: url(img/ganaste.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
